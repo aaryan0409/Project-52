@@ -1,0 +1,75 @@
+h1{
+    color: aqua;
+    text-align: center;
+    margin-left: 325px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    color: blueviolet;
+}
+.header{
+    display: flex;
+    justify-content: space-between;   
+    background-color: #000000; 
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.item{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+    
+}
+.followus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: safe;
+    background-color: blue;
+}
+body{
+    margin: 0px;
+    background-color: #f7f2f2;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%,-150%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
